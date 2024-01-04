@@ -1,0 +1,277 @@
+
+(resnet.py:3037919): Gdk-CRITICAL **: 00:23:10.732: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+/home/rnap/.local/lib/python3.6/site-packages/torchvision/io/image.py:11: UserWarning: Failed to load image Python extension: /home/rnap/.local/lib/python3.6/site-packages/torchvision/image.so: undefined symbol: _ZNK3c106IValue23reportToTensorTypeErrorEv
+  warn(f"Failed to load image Python extension: {e}")
+resnet.py:479: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+/home/rnap/.local/lib/python3.6/site-packages/numpy/core/fromnumeric.py:3373: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/rnap/.local/lib/python3.6/site-packages/numpy/core/_methods.py:170: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+Training fold 1...
+Start Training
+Epoch: 1, Loss: 0.1382, Train Accuracy: 97.92%
+[[3873    2  125]
+ [   2 3998    0]
+ [ 121    0 3879]]
+
+Test Set, Loss: 0.0780, Test Accuracy: 96.97%
+[[955   1  44]
+ [  1 999   0]
+ [ 45   0 955]]
+Epoch: 2, Loss: 0.0434, Train Accuracy: 99.36%
+[[3963    1   36]
+ [   4 3996    0]
+ [  36    0 3964]]
+
+Test Set, Loss: 0.0427, Test Accuracy: 98.47%
+[[978   0  22]
+ [  1 998   1]
+ [ 22   0 978]]
+Epoch: 3, Loss: 0.0263, Train Accuracy: 99.20%
+[[3927    0   73]
+ [   2 3998    0]
+ [  21    0 3979]]
+
+Test Set, Loss: 0.0649, Test Accuracy: 97.67%
+[[957   2  41]
+ [  1 999   0]
+ [ 26   0 974]]
+Epoch: 4, Loss: 0.0193, Train Accuracy: 99.33%
+[[3986    2   12]
+ [  15 3979    6]
+ [  46    0 3954]]
+
+Test Set, Loss: 0.0567, Test Accuracy: 98.17%
+[[985   3  12]
+ [  3 996   1]
+ [ 36   0 964]]
+Epoch: 5, Loss: 0.0173, Train Accuracy: 99.48%
+[[3955    1   44]
+ [   0 4000    0]
+ [  17    0 3983]]
+
+Test Set, Loss: 0.0616, Test Accuracy: 97.77%
+[[957   3  40]
+ [  0 999   1]
+ [ 23   0 977]]
+Start Testing
+
+Test Set, Test Accuracy: 97.77%
+[[957   3  40]
+ [  0 999   1]
+ [ 23   0 977]]
+Training fold 2...
+Start Training
+Epoch: 1, Loss: 0.1314, Train Accuracy: 98.40%
+[[3975    5   20]
+ [   4 3996    0]
+ [ 163    0 3837]]
+
+Test Set, Loss: 0.0640, Test Accuracy: 97.43%
+[[989   0  11]
+ [  1 999   0]
+ [ 65   0 935]]
+Epoch: 2, Loss: 0.0393, Train Accuracy: 99.46%
+[[3940    1   59]
+ [   2 3998    0]
+ [   3    0 3997]]
+
+Test Set, Loss: 0.0611, Test Accuracy: 97.80%
+[[951   0  49]
+ [  2 998   0]
+ [ 15   0 985]]
+Epoch: 3, Loss: 0.0260, Train Accuracy: 99.04%
+[[3920    2   78]
+ [   1 3999    0]
+ [  34    0 3966]]
+
+Test Set, Loss: 0.0706, Test Accuracy: 97.23%
+[[949   1  50]
+ [  2 998   0]
+ [ 30   0 970]]
+Epoch: 4, Loss: 0.0261, Train Accuracy: 99.28%
+[[3938    2   60]
+ [   1 3999    0]
+ [  23    0 3977]]
+
+Test Set, Loss: 0.0722, Test Accuracy: 97.40%
+[[951   1  48]
+ [  1 999   0]
+ [ 27   1 972]]
+Epoch: 5, Loss: 0.0104, Train Accuracy: 99.78%
+[[3976    0   24]
+ [   0 4000    0]
+ [   3    0 3997]]
+
+Test Set, Loss: 0.0559, Test Accuracy: 98.27%
+[[970   0  30]
+ [  3 997   0]
+ [ 19   0 981]]
+Start Testing
+
+Test Set, Test Accuracy: 98.27%
+[[970   0  30]
+ [  3 997   0]
+ [ 19   0 981]]
+Training fold 3...
+Start Training
+Epoch: 1, Loss: 0.1391, Train Accuracy: 97.60%
+[[3775    3  222]
+ [  30 3970    0]
+ [  32    1 3967]]
+
+Test Set, Loss: 0.1068, Test Accuracy: 95.53%
+[[894   0 106]
+ [ 12 988   0]
+ [ 16   0 984]]
+Epoch: 2, Loss: 0.0466, Train Accuracy: 97.24%
+[[3806   53  141]
+ [   0 3996    4]
+ [ 132    1 3867]]
+
+Test Set, Loss: 0.1267, Test Accuracy: 95.43%
+[[924  15  61]
+ [  0 998   2]
+ [ 58   1 941]]
+Epoch: 3, Loss: 0.0378, Train Accuracy: 99.55%
+[[3993    0    7]
+ [   3 3997    0]
+ [  44    0 3956]]
+
+Test Set, Loss: 0.0526, Test Accuracy: 97.57%
+[[965   0  35]
+ [  1 999   0]
+ [ 37   0 963]]
+Epoch: 4, Loss: 0.0155, Train Accuracy: 99.85%
+[[3992    0    8]
+ [   3 3997    0]
+ [   7    0 3993]]
+
+Test Set, Loss: 0.0543, Test Accuracy: 98.10%
+[[957   0  43]
+ [  1 998   1]
+ [ 12   0 988]]
+Epoch: 5, Loss: 0.0176, Train Accuracy: 99.46%
+[[3970   10   20]
+ [   0 4000    0]
+ [  34    1 3965]]
+
+Test Set, Loss: 0.0768, Test Accuracy: 97.57%
+[[ 958    2   40]
+ [   0 1000    0]
+ [  30    1  969]]
+Start Testing
+
+Test Set, Test Accuracy: 97.57%
+[[ 958    2   40]
+ [   0 1000    0]
+ [  30    1  969]]
+Training fold 4...
+Start Training
+Epoch: 1, Loss: 0.1397, Train Accuracy: 98.51%
+[[3884    5  111]
+ [   4 3996    0]
+ [  59    0 3941]]
+
+Test Set, Loss: 0.0588, Test Accuracy: 97.77%
+[[967   2  31]
+ [  1 999   0]
+ [ 33   0 967]]
+Epoch: 2, Loss: 0.0357, Train Accuracy: 99.76%
+[[3988    4    8]
+ [   1 3999    0]
+ [  11    5 3984]]
+
+Test Set, Loss: 0.0398, Test Accuracy: 98.47%
+[[982   2  16]
+ [  1 999   0]
+ [ 25   2 973]]
+Epoch: 3, Loss: 0.0296, Train Accuracy: 99.31%
+[[3926   19   55]
+ [   0 4000    0]
+ [   8    1 3991]]
+
+Test Set, Loss: 0.0609, Test Accuracy: 97.73%
+[[ 958    7   35]
+ [   0 1000    0]
+ [  23    3  974]]
+Epoch: 4, Loss: 0.0220, Train Accuracy: 99.36%
+[[3946    2   52]
+ [  14 3986    0]
+ [   9    0 3991]]
+
+Test Set, Loss: 0.0531, Test Accuracy: 98.13%
+[[969   0  31]
+ [  9 991   0]
+ [ 16   0 984]]
+Epoch: 5, Loss: 0.0189, Train Accuracy: 99.58%
+[[3986    5    9]
+ [   0 4000    0]
+ [  35    1 3964]]
+
+Test Set, Loss: 0.0648, Test Accuracy: 97.97%
+[[ 983    3   14]
+ [   0 1000    0]
+ [  41    3  956]]
+Start Testing
+
+Test Set, Test Accuracy: 97.97%
+[[ 983    3   14]
+ [   0 1000    0]
+ [  41    3  956]]
+Training fold 5...
+Start Training
+Epoch: 1, Loss: 0.1328, Train Accuracy: 98.17%
+[[3882   12  106]
+ [   2 3998    0]
+ [  99    1 3900]]
+
+Test Set, Loss: 0.0702, Test Accuracy: 97.33%
+[[ 958    1   41]
+ [   0 1000    0]
+ [  38    0  962]]
+Epoch: 2, Loss: 0.0380, Train Accuracy: 99.33%
+[[3930    2   68]
+ [   2 3998    0]
+ [   8    0 3992]]
+
+Test Set, Loss: 0.0518, Test Accuracy: 98.00%
+[[ 948    0   52]
+ [   0 1000    0]
+ [   8    0  992]]
+Epoch: 3, Loss: 0.0273, Train Accuracy: 99.36%
+[[3987    1   12]
+ [   5 3995    0]
+ [  59    0 3941]]
+
+Test Set, Loss: 0.0546, Test Accuracy: 98.13%
+[[984   1  15]
+ [  3 997   0]
+ [ 37   0 963]]
+Epoch: 4, Loss: 0.0231, Train Accuracy: 99.25%
+[[3920    4   76]
+ [   2 3998    0]
+ [   8    0 3992]]
+
+Test Set, Loss: 0.0730, Test Accuracy: 97.63%
+[[947   2  51]
+ [  2 998   0]
+ [ 16   0 984]]
+Epoch: 5, Loss: 0.0158, Train Accuracy: 99.80%
+[[3990    3    7]
+ [   0 4000    0]
+ [  14    0 3986]]
+
+Test Set, Loss: 0.0514, Test Accuracy: 98.17%
+[[ 970    6   24]
+ [   0 1000    0]
+ [  25    0  975]]
+Start Testing
+
+Test Set, Test Accuracy: 98.17%
+[[ 970    6   24]
+ [   0 1000    0]
+ [  25    0  975]]
+Average Testing Accuracy: 97.95%
+Mean F1 Score: 0.98 ± 0.00

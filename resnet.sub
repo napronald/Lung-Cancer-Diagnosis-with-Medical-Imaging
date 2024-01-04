@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH --partition=dept.appliedmath
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --time=3-00:00:00
+#SBATCH --gres=gpu:1
+#SBATCH --job-name=CRC
+#SBATCH --output=resnet.txt
+
+python3 resnet.py
+
+
